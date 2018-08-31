@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RestoreCmd
+namespace RestoreCommandPrompt
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -56,6 +56,8 @@ namespace RestoreCmd
                 btnFolderBackEnable.IsEnabled = true;
                 btnFolderBackDisable.IsEnabled = false;
             }
+
+           
 
             if (chkExplorerStatus.IsChecked.GetValueOrDefault())
             {
@@ -106,5 +108,6 @@ namespace RestoreCmd
             RestoreTool.RestorePowershellRibbon();
             UpdateStatus();
         }
+
     }
 }

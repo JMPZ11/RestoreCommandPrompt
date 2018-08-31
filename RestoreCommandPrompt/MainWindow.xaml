@@ -1,11 +1,11 @@
-﻿<Window x:Class="RestoreCmd.MainWindow"
+﻿<Window x:Class="RestoreCommandPrompt.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RestoreCmd"
+        xmlns:local="clr-namespace:RestoreCommandPrompt"
         mc:Ignorable="d"
-        Title="Windows 10 Restore Command Prompt" Height="135.957" Width="373.937" ResizeMode="NoResize">
+        Title="Windows 10 Restore Command Prompt" Height="135.457" Width="371.437" ResizeMode="NoResize">
     <Grid>
         <CheckBox x:Name="chkFolderStatus" Content="Folder Context Menu" HorizontalAlignment="Left" Margin="13,15,0,0" VerticalAlignment="Top" IsEnabled="False"/>
         <CheckBox x:Name="chkFolderBackStatus" Content="Folder Background Context Menu" HorizontalAlignment="Left" Margin="13,45,0,0" VerticalAlignment="Top" IsEnabled="False"/>

@@ -1,7 +1,7 @@
-﻿<Application x:Class="RestoreCmd.App"
+﻿<Application x:Class="RestoreCommandPrompt.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:RestoreCmd"
+             xmlns:local="clr-namespace:RestoreCommandPrompt"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
